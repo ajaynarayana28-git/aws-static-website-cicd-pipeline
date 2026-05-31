@@ -2,7 +2,10 @@
 
 ## Project Overview
 
-This project demonstrates a fully automated CI/CD pipeline for static website hosting on AWS. Any code change pushed to the GitHub repository automatically triggers AWS CodePipeline, which deploys the website files to an Amazon S3 bucket configured for static website hosting.
+## Project Overview
+
+Designed and implemented a fully automated AWS CI/CD pipeline for static website hosting using GitHub, CodePipeline, CodeBuild, Amazon S3, and CloudFront. The solution automates code deployment, improves delivery efficiency, and provides fast, globally distributed content through AWS Cloud services.
+
 
 ---
 

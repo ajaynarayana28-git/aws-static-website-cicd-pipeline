@@ -10,6 +10,10 @@ This project demonstrates a fully automated CI/CD pipeline for static website ho
 
 
 
+[Architecture Diagram – Project 2](sandbox:/mnt/data/aws-static-website-cicd-architecture.png)
+
+
+
 ---
 
 ## AWS Services Used

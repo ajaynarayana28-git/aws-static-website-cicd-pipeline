@@ -2,14 +2,14 @@
 
 ## Project Overview
 
-This project demonstrates a fully automated CI/CD pipeline for static website hosting on AWS. Any code change pushed to CodeCommit automatically triggers CodePipeline, which builds and deploys the website to S3. CloudFront delivers the content globally with low latency.
+This project demonstrates a fully automated CI/CD pipeline for static website hosting on AWS. Any code change pushed to the GitHub repository automatically triggers AWS CodePipeline, which deploys the website files to an Amazon S3 bucket configured for static website hosting.
 
 ---
 
 ## Architecture Diagram
 
 
-(sandbox:/mnt/data/aws-static-website-cicd-architecture.png)
+![AWS Architecture](Architecture-Diagram/AWS-Static-Website-CICD-Architecture.png)
 
 
 ---
@@ -17,12 +17,11 @@ This project demonstrates a fully automated CI/CD pipeline for static website ho
 ## AWS Services Used
 
 * Amazon S3 — Static website hosting
-* Amazon CloudFront — Global content delivery (CDN)
 * AWS CodeCommit — Source code repository
 * AWS CodeBuild — Automated build service
 * AWS CodePipeline — CI/CD pipeline orchestration
 * AWS IAM — Roles and permissions
-* Amazon CloudWatch — Pipeline monitoring and logs
+
 
 ---
 

@@ -107,6 +107,37 @@ aws-static-website-cicd/
 * Configured least privilege permissions
 * Attached necessary policies
 
+## CloudFront Content Delivery Network (CDN)
+
+To improve website performance and global accessibility, Amazon CloudFront was integrated with the S3 static website.
+
+### Implementation Steps
+
+* Created a CloudFront Distribution
+* Selected the S3 bucket as the origin
+* Disabled AWS WAF for this project
+* Configured Default Root Object as `index.html`
+* Enabled global content delivery through CloudFront edge locations
+* Verified successful website access using the CloudFront domain URL
+
+### Outcome
+
+The website is now delivered through CloudFront, providing faster content delivery, lower latency, and improved user experience worldwide.
+
+### Screenshots
+
+#### CloudFront Security Configuration
+
+![CloudFront Security](Screenshots/14_AWS_CloudFront_Security_Settings.png)
+
+#### CloudFront Distribution Created
+
+![CloudFront Distribution](Screenshots/15_AWS_CloudFront_Distribution_Created.png)
+
+#### Website Access Through CloudFront
+
+![CloudFront Website Access](Screenshots/16_AWS_CloudFront_Website_Access_Success.png)
+
 ---
 
 ## Testing and Validation

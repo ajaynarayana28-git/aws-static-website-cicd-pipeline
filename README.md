@@ -127,21 +127,7 @@ To improve website performance and global accessibility, Amazon CloudFront was i
 
 The website is now delivered through CloudFront, providing faster content delivery, lower latency, and improved user experience worldwide.
 
-### Screenshots
 
-#### CloudFront Security Configuration
-
-![CloudFront Security](Screenshots/14_AWS_CloudFront_Security_Settings.png)
-
-#### CloudFront Distribution Created
-
-![CloudFront Distribution](Screenshots/15_AWS_CloudFront_Distribution_Created.png)
-
-#### Website Access Through CloudFront
-
-![CloudFront Website Access](Screenshots/16_AWS_CloudFront_Website_Access_Success.png)
-
----
 
 ## Testing and Validation
 

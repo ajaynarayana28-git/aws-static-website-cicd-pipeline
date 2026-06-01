@@ -2,8 +2,6 @@
 
 ## Project Overview
 
-## Project Overview
-
 Designed and implemented a fully automated AWS CI/CD pipeline for static website hosting using GitHub, CodePipeline, CodeBuild, Amazon S3, and CloudFront. The solution automates code deployment, improves delivery efficiency, and provides fast, globally distributed content through AWS Cloud services.
 
 

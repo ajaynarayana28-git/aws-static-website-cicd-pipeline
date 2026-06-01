@@ -112,7 +112,8 @@ aws-static-website-cicd/
 
 ## CloudFront Content Delivery Network (CDN)
 
-To improve website performance and global accessibility, Amazon CloudFront was integrated with the S3 static website.
+Amazon CloudFront was integrated with the S3 static website to provide low-latency content delivery, improved performance, enhanced availability, and faster access for users across global edge locations.
+
 
 ### Implementation Steps
 

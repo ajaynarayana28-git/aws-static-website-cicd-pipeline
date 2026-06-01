@@ -75,8 +75,6 @@ aws-static-website-cicd/
 ├── Architecture-Diagram/
 ├── Screenshots/
 ├── index.html
-├── buildspec.yml
-├── Documentation/
 └── README.md
 ```
 
